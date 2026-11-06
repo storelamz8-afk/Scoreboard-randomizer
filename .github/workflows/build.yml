@@ -19,8 +19,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-          cache: maven
-
+          
       - name: Extract source
         run: |
           unzip RandomizerVortex-1.20.6-Source.zip
